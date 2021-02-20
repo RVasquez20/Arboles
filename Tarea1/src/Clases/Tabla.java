@@ -22,7 +22,7 @@ private String C;
 public void Graficar(){
   Arbol arbol2=new Arbol();
        String Cadena="";
-        Cadena= JOptionPane.showInputDialog("Ingrese la cadena:");
+        Cadena= JOptionPane.showInputDialog(null,"Ingrese la Representacion de Lista del Arbol:","Ingreso",JOptionPane.QUESTION_MESSAGE);
         setC(Cadena);
         HashMap<String, String> Tabla = new HashMap<String, String>();
 
